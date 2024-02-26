@@ -23,7 +23,7 @@ public class Program {
 
         Account acc = new Account(numberAccount,name,balance,withdrawLimit);
 
-        System.out.println("Informe uma quantia para sacar: ");
+        System.out.print("Informe uma quantia para sacar: ");
         Double amount =  scanner.nextDouble();
 
         try{
